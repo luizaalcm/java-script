@@ -3,8 +3,8 @@ var nome = "Bonieky";
 
 
 let nome = "Bonieky";
-// variavel disponivel apenas naquela parte do codigo, no escopo especifico
+// variavel disponivel apenas naquela parte do codigo, no escopo especifico, modificavel 
 
 const nome = "Bonieky";
 
-// não podemos dar um novo valor pra uma variavel  constante 
+// não podemos dar um novo valor pra uma variavel  constante, constante

@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+#exemplo{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border: 1px solid rgb(121, 112, 112);
+}
+
+.verde{
+background-color: green;
+}
+.vermelho{
+    background-color: red;
+}
+.azul{
+background-color: blue;
+}

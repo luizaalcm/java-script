@@ -1,0 +1,20 @@
+ var nome = "Bonieky"; //string- qualquer valor entre aspas simples ou aspas duplas
+ var idade = 90;        // numérico
+ var salvo = true;     //bolleano true or false 
+
+ // usando o typeof podemos descobrir o tipo de uma variavel
+
+ //motrando no console o resultado
+ console.log(nome);{}
+
+
+ function alterar(){  // criou a função
+    document.getElementById("titulo").innerHTML = 'Trocou o titulo!';
+ }
+ alterar ();  // fez funcionar
+
+ // quando usamos () estamos criando uma função 
+ // .inner significa mudar no html 
+
+ alert("funcionou!!!")
+

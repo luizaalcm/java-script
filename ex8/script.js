@@ -3,18 +3,25 @@
  var salvo = true;     //bolleano true or false 
 
  // usando o typeof podemos descobrir o tipo de uma variavel
-
- //motrando no console o resultado
+//motrando no console o resultado
  console.log(nome);{}
 
 
  function alterar(){  // criou a função
     document.getElementById("titulo").innerHTML = 'Trocou o titulo!';
- }
+ } // criamos a função ma para unionar precisamos de:
  alterar ();  // fez funcionar
 
  // quando usamos () estamos criando uma função 
  // .inner significa mudar no html 
 
  alert("funcionou!!!")
+//alert é uma função, dentro dela vários códigos estão sendo executados!!!
+
+function alterar (titulo) { //o valor ue fo especificado no alterar, será enviado para cá
+    document.getElementById("titulo") = 'titulo';
+}
+alterar ("Título de exemplo")
+
+
 

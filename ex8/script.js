@@ -24,4 +24,16 @@ function alterar (titulo) { //o valor ue fo especificado no alterar, será envia
 alterar ("Título de exemplo")
 
 
+//------------------------------------------------------------------------
+function somar (x,y) {
+    let total= x + y;
+
+    return total;
+}
+
+var resultado = somar (10,25);
+
+console.log(resultado);
+
+
 

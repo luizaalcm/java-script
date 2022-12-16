@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primeiro arquivo em JS</title>
+    <title>Aprendendo Js</title>
     <style>
         body{
             background-color: rgb(155, 111, 195);
@@ -20,11 +20,15 @@
 <body>
     <h1>Olá, Mundo!</h1>
 <p>Já me livrei da maldição!</p>
+
     <script>
-        alert('Seja bem vindo(a)!')
-        window.confirm('Está gostando de JS?') //Janela com botão ok ou cancelar
-        window.prompt('Qual é seu nome?') // vai perguntar o nome
+       var nome = window.prompt('Qual é seu nome?') // vai perguntar o nome
+       window.alert ('É um grande prazer te conhecer ' + nome +'!') // efeito de concatenação
+
+       var n1 = Number(window.prompt('Digite um número'))  //usamos o  Number para converter para numero
+       var n2= Number(window.prompt('Digite outro número'))
+       var s = n1 + n2
+       window.alert('A soma do valores é ' + s)
     </script>
 </body>
 </html>
-
